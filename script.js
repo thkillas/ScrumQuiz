@@ -88,9 +88,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (allCorrect) {
                 correctAnswersCount++;
-                //setStatusClass(document.body, true);
             } else {
-                //setStatusClass(document.body, false);
             }
 
             // Deaktiviere alle Buttons nach Auswahl

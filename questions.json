@@ -157,7 +157,7 @@
         ]
     },
     {
-        "question": "The Developers should not be interrupted during the Sprint and the Sprint Goal should remain intact. These are conditions that foster creativity, quality and productivity.",
+        "question": "The Developers should not be interrupted during the Sprint and the Sprint Goal should remain intact. These are conditions that foster creativity, quality and productivity.[False Answer]",
         "answers": [
             {"text": "The Developers may work with the Product Owner to add or remove work if they find themselves with more or less capacity than expected.", "correct": false},
             {"text": "As a decomposition of the selected Product Backlog items, the Sprint Backlog changes and may grow as the work emerges.", "correct": true},
@@ -271,6 +271,110 @@
             {"text": "Enough so that the Increment meets the Definition of Done.", "correct": true},
             {"text": "All development work and at least some testing.", "correct": false},
             {"text": "Analysis, design, programming, testing and documentation.", "correct": false}
+        ]
+    },
+    {
+        "question": "When multiple Scrum Teams work together on the same product, each team should maintain a separate Product Backlog.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "What are two ways a Scrum Master serves to enable effective Scrum Teams?",
+        "answers": [
+            {"text": "By facilitating Developer decision-making.", "correct": true},
+            {"text": "By keeping high value features high in the Product Backlog.", "correct": false},
+            {"text": "By removing impediments that hinder the Scrum Team.", "correct": true},
+            {"text": "By starting and ending the meetings at the proper time.", "correct": false}
+        ]
+    },
+    {
+        "question": "What is the typical size for a Scrum Team?",
+        "answers": [
+            {"text": "10 or fewer.", "correct": true},
+            {"text": "9.", "correct": false},
+            {"text": "7 plus or minus 2.", "correct": false},
+            {"text": "Minimum of 7.", "correct": false}
+        ]
+    },
+    {
+        "question": "Scrum has a role called 'project manager.'",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Developers should have all the skills needed to:",
+        "answers": [
+            {"text": "Turn the Product Backlog items they select into an Increment of a useful and valuable product.", "correct": true},
+            {"text": "Complete the project as estimated when the date and cost are committed to the Product Owner.", "correct": false},
+            {"text": "Do all of the development work, except for specialized testing that requires additional tools and environments.", "correct": false}
+        ]
+    },
+    {
+        "question": "What does it mean to say that an event has a timebox?",
+        "answers": [
+            {"text": "The event must happen by a given time.", "correct": false},
+            {"text": "The event can take no more than a maximum amount of time.", "correct": true},
+            {"text": "The event must take at least a minimum amount of time.", "correct": false},
+            {"text": "The event must happen at a set time.", "correct": false}
+        ]
+    },
+    {
+        "question": "What should the Scrum Team do during the first Sprint?",
+        "answers": [
+            {"text": "Develop a plan for the rest of the release.", "correct": false},
+            {"text": "Create a valuable and useful Increment.", "correct": true},
+            {"text": "Determine the complete architecture and infrastructure for the product.", "correct": false},
+            {"text": "Create the complete Product Backlog to be developed in subsequent Sprints.", "correct": false}
+        ]
+    },
+    {
+        "question": "Who should know the most about the progress toward a business objective or a release, and be able to explain the alternatives most clearly?",
+        "answers": [
+            {"text": "The Scrum Master", "correct": false},
+            {"text": "The Product Owner", "correct": true},
+            {"text": "The Project Manager", "correct": false},
+            {"text": "The Developers", "correct": false}
+        ]
+    },
+    {
+        "question": "Who creates the Definition of Done?",
+        "answers": [
+            {"text": "The Scrum Master since they are responsible for the productivity of the Developers.", "correct": false},
+            {"text": "The Product Owner since they are responsible for the product's success.", "correct": false},
+            {"text": "The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions.", "correct": false},
+            {"text": "If it is not an organizational standard, the Scrum Team must create a Definition of Done appropriate for the product.", "correct": true}
+        ]
+    },
+    {
+        "question": "The Product Backlog is ordered by:",
+        "answers": [
+            {"text": "Items are randomly arranged.", "correct": false},
+            {"text": "Whatever is deemed most appropriate by the Product Owner.", "correct": true},
+            {"text": "Risk, where safer items are at the top, and riskier items are at the bottom.", "correct": false},
+            {"text": "Least valuable items at the top to most valuable at the bottom.", "correct": false},
+            {"text": "Size, where small items are at the top and large items are at the bottom.", "correct": false}
+        ]
+    },    
+    {
+        "question": "When does the next Sprint begin?",
+        "answers": [
+            {"text": "Immediately after the conclusion of the previous Sprint.", "correct": true},
+            {"text": "When the Product Owner is ready.", "correct": false},
+            {"text": "Immediately following the next Sprint Planning.", "correct": false},
+            {"text": "Next Monday.", "correct": false}
+        ]
+    },
+    {
+        "question": "When does a Sprint conclude?",
+        "answers": [
+            {"text": "When all the tasks are completed by the Developers.", "correct": false},
+            {"text": "When all Product Backlog items meet their Definition of Done.", "correct": false},
+            {"text": "ParWhen the Sprint Retrospective is complete.is", "correct": true},
+            {"text": "When the Product Owner decides enough has been delivered to meet the Sprint Goal.", "correct": false}
         ]
     },
     {
@@ -503,6 +607,51 @@
         "answers": [
             {"text": "True", "correct": true},
             {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "What are typical activities for a Product Owner in a Sprint?",
+        "answers": [
+            {"text": "Create financial reporting upon the spent hours reported by the Scrum Team.", "correct": false},
+            {"text": "Attend every Daily Scrum to answer functional questions on the discussed Sprint Backlog items.", "correct": false},
+            {"text": "Work with the Developers on Product Backlog refinement.", "correct": true},
+            {"text": "Collaborate with stakeholders, user communities, and subject matter experts.", "correct": true},
+            {"text": "Update the work plan for the Developers on a daily basis.", "correct": false}
+        ]
+    },
+    {
+        "question": "What best describes the relationship of the Product Owner and the stakeholders?",
+        "answers": [
+            {"text": "The Product Owner actively asks for stakeholder input and expectations to incorporate into the Product Backlog.", "correct": true},
+            {"text": "The Product Owner writes the User Stories as provided by the stakeholders.", "correct": false},
+            {"text": "The Product Owner has the final call over the requirements and should involve the stakeholders as little as possible.", "correct": false},
+            {"text": "The Product Owner provides the stakeholders with acceptance forms at the Sprint Review to record their formal agreement over the delivered software.", "correct": false}
+        ]
+    },
+    {
+        "question": "Is the Product Owner required to be present at the Sprint Retrospective?",
+        "answers": [
+            {"text": "They are not allowed. The Sprint Retrospective is an opportunity for the Developers to improve.", "correct": false},
+            {"text": "They are optional. Attendance is only required when the Product Owner gets invited by the Scrum Master.", "correct": false},
+            {"text": "Their attendance is mandatory. The Sprint Retrospective is an opportunity for the Scrum Team to assess and improve itself.", "correct": true}
+        ]
+    },
+    {
+        "question": "Who creates the Definition of Done?",
+        "answers": [
+            {"text": "The Scrum Team, in a collaborative effort where the result is the common denominator of all members' definitions.", "correct": false},
+            {"text": "The organization (or the Scrum Team if none is available from the organization).", "correct": true},
+            {"text": "The Product Owner as they are responsible for the product's success.", "correct": false},
+            {"text": "The Scrum Master as they are responsible for the Scrum Team's productivity.", "correct": false}
+        ]
+    },
+    {
+        "question": "To what extent does technical debt limit the value a Product Owner can get from a product?",
+        "answers": [
+            {"text": "Technical debt is not a Product Owner concern, technical debt is only an issue for the Developers.", "correct": false},
+            {"text": "The velocity at which new functionality can be created is reduced when you have technical debt.", "correct": true},
+            {"text": "Technical debt does not influence the delivery of value.", "correct": false},
+            {"text": "Technical debt causes a greater percentage of the product's budget to be spent on maintenance of the product.", "correct": true}
         ]
     }
 ]

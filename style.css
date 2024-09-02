@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #ffffff; /* Weißer Hintergrund für die gesamte Seite */
+    font-family: Arial, sans-serif; /* LysSchriftart muss noch gewählt werden! */
+    background-color: #d3d3d3; /* LysHellgrau als Hintergrund für die gesamte Seite */
 }
 
 #quiz-container {
@@ -17,17 +17,17 @@ body {
 button {
     margin: 5px 0;
     padding: 10px;
-    background-color: #4CAF50; /* Grüne Hintergrundfarbe für die Buttons */
+    background-color: #3333CC; /* LysBlau als Hintergrundfarbe für die Buttons */
     color: white;
     border: none;
     border-radius: 5px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Leichter Schatten für die Buttons */
-    cursor: pointer; /* Zeiger-Cursor für die Buttons */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
     transition: all 0.3s ease; /* Weicher Übergang für Hover-Effekte */
 }
 
 button:hover {
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5); /* Verstärkter Schatten beim Hover über den Buttons */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
 }
 
 button:active {
@@ -40,9 +40,9 @@ button:active {
 }
 
 .correct {
-    background-color: #28a745; /* Grün für korrekte Antworten */
+    background-color: #28a745;
 }
 
 .wrong {
-    background-color: #dc3545; /* Rot für falsche Antworten */
+    background-color: #dc3545;
 }
