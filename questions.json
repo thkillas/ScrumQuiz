@@ -157,7 +157,7 @@
         ]
     },
     {
-        "question": "The Developers should not be interrupted during the Sprint and the Sprint Goal should remain intact. These are conditions that foster creativity, quality and productivity.[False Answer]",
+        "question": "The Developers should not be interrupted during the Sprint and the Sprint Goal should remain intact. These are conditions that foster creativity, quality and productivity. [False Answer]",
         "answers": [
             {"text": "The Developers may work with the Product Owner to add or remove work if they find themselves with more or less capacity than expected.", "correct": false},
             {"text": "As a decomposition of the selected Product Backlog items, the Sprint Backlog changes and may grow as the work emerges.", "correct": true},
@@ -373,7 +373,7 @@
         "answers": [
             {"text": "When all the tasks are completed by the Developers.", "correct": false},
             {"text": "When all Product Backlog items meet their Definition of Done.", "correct": false},
-            {"text": "ParWhen the Sprint Retrospective is complete.is", "correct": true},
+            {"text": "When the Sprint Retrospective is complete.", "correct": true},
             {"text": "When the Product Owner decides enough has been delivered to meet the Sprint Goal.", "correct": false}
         ]
     },
@@ -652,6 +652,497 @@
             {"text": "The velocity at which new functionality can be created is reduced when you have technical debt.", "correct": true},
             {"text": "Technical debt does not influence the delivery of value.", "correct": false},
             {"text": "Technical debt causes a greater percentage of the product's budget to be spent on maintenance of the product.", "correct": true}
+        ]
+    },
+    {
+        "question": "Which of the following services are appropriate for a Scrum Master in regard to the Daily Scrum?",
+        "answers": [
+            {"text": "Teach the Development Team to keep the Daily Scrum within the 15 minute time-box.", "correct": true},
+            {"text": "Lead the discussions of the Development Team.", "correct": false},
+            {"text": "Keep track of whether each team member has a chance to speak.", "correct": false},
+            {"text": "Make sure that all 3 questions have been answered by each member of the team.", "correct": false},
+            {"text": "All of the above.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following best describes an increment of working software?",
+        "answers": [
+            {"text": "An automated test suite to verify functionality delivered in previous iterations.", "correct": false},
+            {"text": "A new user interface design for functionality delivered in previous iterations.", "correct": false},
+            {"text": "Additional features in a usable state that complement those delivered in previous iterations.", "correct": true},
+            {"text": "UML diagrams that describe how to deliver functionality in future iterations.", "correct": false},
+            {"text": "A decomposition of all Product Backlog items into tasks for future Sprint Backlog lists.", "correct": false}
+        ]
+    },
+    {
+        "question": "The Product Owner should have a complete and exhaustive Product Backlog before the first Sprint can start? ",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "What are three advantages of a Product Owner with a solid product vision?",
+        "answers": [
+            {"text": "It's not mandatory in Scrum. There's no real advantage.", "correct": false},
+            {"text": "It is easier to inspect incremental progress at the Sprint Review.", "correct": true},
+            {"text": "It gives a good overall direction so Sprints will feel less like isolated pieces of work.", "correct": true},
+            {"text": "It helps the Scrum Team keep focus and they can check any decision against it, even within a Sprint.", "correct": true},
+            {"text": "It helps the Scrum Team maintain focus on when the complete Product Backlog should be finished.", "correct": false}
+        ]
+    },
+    {
+        "question": "The 'cone of uncertainty' can be used to do what?",
+        "answers": [
+            {"text": "Illustrate that, as a forecast lengthens, it is increasingly less certain.", "correct": true},
+            {"text": "Determine the cost of a project before it is begun.", "correct": false},
+            {"text": "Determine whether to cut quality, similar to the 'Iron Triangle' of project management.", "correct": false},
+            {"text": "Project what will be completed by a given Sprint.", "correct": false}
+        ]
+    },
+    {
+        "question": "Product Owners must create clear and unambiguous acceptance criteria for each Product Backlog item before it may be selected in Sprint Planning.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "When many Scrum Teams are working on the same product, should all of their Increments be integrated every Sprint?",
+        "answers": [
+            {"text": "Yes, but only for Scrum Teams whose work has dependencies.", "correct": false},
+            {"text": "No, that is far too hard and must be done in a hardening Sprint.", "correct": false},
+            {"text": "Yes, otherwise the Product Owners (and stakeholders) may not be able to accurately inspect what is done.", "correct": true},
+            {"text": "No, each Scrum Team stands alone.", "correct": false}
+        ]
+    },
+    {
+        "question": "You are the Scrum Master of a new, to be developed product. Development is going to require 45 people. What is a good first question for you to suggest the group thinks about when forming into teams?",
+        "answers": [
+            {"text": "Who are going to be the team leads?", "correct": false},
+            {"text": "What is the right mixture of senior and junior people on each team?", "correct": false},
+            {"text": "PHow will we make sure all teams have the right amount of expertise?aris", "correct": true},
+            {"text": "Who are the subject matter experts on each team?", "correct": false}
+        ]
+    },
+    {
+        "question": "What might indicate to a Product Owner that she needs to work more with the Scrum Team?",
+        "answers": [
+            {"text": "People leave the Scrum Team.", "correct": false},
+            {"text": "The acceptance criteria don't appear to be complete.", "correct": false},
+            {"text": "The Increment presented at the Sprint Review does not reflect what she thought she had asked for.", "correct": true},
+            {"text": "She isn't working full time with the Scrum team.", "correct": false}
+        ]
+    },
+    {
+        "question": "Dependencies could influence how the Product Owner orders Product Backlog Items.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "Scrum is a methodology that tells in detail how to build software incrementally.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "A Product Backlog is:",
+        "answers": [
+            {"text": "Only visible to the Product Owner and stakeholders.", "correct": false},
+            {"text": "An inventory of things to be done for the Product.", "correct": true},
+            {"text": "An exhaustive list of upfront approved requirements to be implemented.", "correct": false},
+            {"text": "Managed by the Product Owner.", "correct": true},
+            {"text": "Ordered based on priority, value, dependencies, and risk.", "correct": true}
+        ]
+    },
+    {
+        "question": "Which three of the following are time-boxed events in Scrum?",
+        "answers": [
+            {"text": "Daily Scrum.", "correct": true},
+            {"text": "Release Testing.", "correct": false},
+            {"text": "Release Retrospective.", "correct": false},
+            {"text": "Sprint 0.", "correct": false},
+            {"text": "Sprint Planning.", "correct": true},
+            {"text": "Sprint Testing.", "correct": false},
+            {"text": "Sprint Retrospective.", "correct": true}
+        ]
+    },
+    {
+        "question": "Why should the Product Owner be present at the Daily Scrum?",
+        "answers": [
+            {"text": "To participate as a Scrum Team member.", "correct": false},
+            {"text": "To hear about impediments in functionality.", "correct": false},
+            {"text": "To represent the stakeholders' point of view.", "correct": false},
+            {"text": "He/She doesn't need to be there.", "correct": true}
+        ]
+    },
+    {
+        "question": "What typically happens if the Product Backlog is not sufficiently clear at Sprint Planning?",
+        "answers": [
+            {"text": "The Development Team has difficulties creating a forecast of work for the Sprint.", "correct": true},
+            {"text": "The meeting is cancelled so refinement can be done first.", "correct": false},
+            {"text": "It is compensated if the Product Owner gives the team a clear Sprint Goal instead.", "correct": false},
+            {"text": "Nothing in particular.", "correct": false},
+            {"text": "The Scrum Master shouldn't allow this to happen. Look for a new Scrum Master and re-start the Sprint.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which three purposes does the definition of 'Done' serve?",
+        "answers": [
+            {"text": "Describe the work that must be done before the Sprint is allowed to end.", "correct": false},
+            {"text": "Describe the purpose, objective, and time-box of each Scrum event.", "correct": false},
+            {"text": "Create a shared understanding of when work is complete.", "correct": true},
+            {"text": "Guide the Development Team on how many Product Backlog items to select for the Sprint.", "correct": true},
+            {"text": "Increase transparency.", "correct": true}
+        ]
+    },
+    {
+        "question": "Multiple Scrum Teams working on the same project must have the same Sprint start date.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "The Scrum Master observes the Product Owner struggling with ordering the Product Backlog. What is an appropriate action for the Scrum Master to take?",
+        "answers": [
+            {"text": "Suggest the Product Owner extend the Sprint, so he can have more time to order the Product Backlog.", "correct": false},
+            {"text": "Offer the Product Owner help in understanding that the goal of ordering the Product Backlog is to maximize value.", "correct": true},
+            {"text": "Encourage the Product Owner to work with the Development Team to see which items technically are fastest to implement.", "correct": false},
+            {"text": "Suggest that the Development Team does the ordering to be sure that it is a feasible ordering of work.", "correct": false},
+            {"text": "Present the Product Owner with an ordered Product Backlog to use.", "correct": false}
+        ]
+    },
+    {
+        "question": "Why would you expect a Product Owner to care about the Development Team adhering to its definition of 'Done'?",
+        "answers": [
+            {"text": "To forecast the team's productivity over time.", "correct": false},
+            {"text": "To be able to punish the team when they don't meet their velocity goal for the Sprint.", "correct": false},
+            {"text": "To have complete transparency into what has been done at the end of each Sprint.", "correct": true},
+            {"text": "The definition of 'Done' can affect the product's total cost of ownership.", "correct": true},
+            {"text": "The Product Owner should not care about the definition of 'Done', it is the Development Team's responsibility.", "correct": false}
+        ]
+    },
+    {
+        "question": "Product Owners must specify complete acceptance criteria for a Product Backlog item before the team can select the item in Sprint Planning.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "What activities would a Product Owner typically undertake in the phase between the end of the current Sprint and the start of the next Sprint?",
+        "answers": [
+            {"text": "There are no such activities. The next Sprint starts immediately after the current Sprint.", "correct": true},
+            {"text": "Work with the Quality Assurance departments on the Increment of the current Sprint.", "correct": false},
+            {"text": "Update the project plan with stakeholders.", "correct": false},
+            {"text": "Refine the Product Backlog.", "correct": false}
+        ]
+    },
+    {
+        "question": "In order to maximize the value of the product, a Product Owner needs awareness of the following:",
+        "answers": [
+            {"text": "Customer feedback.", "correct": false},
+            {"text": "Competitive research.", "correct": false},
+            {"text": "Product vision.", "correct": false},
+            {"text": "Forecasting & feasibility.", "correct": false},
+            {"text": "All of the above.", "correct": true},
+            {"text": "None of the above.", "correct": false}
+        ]
+    },
+    {
+        "question": "A Scrum Team has been working on a product for 9 Sprints. A new Product Owner comes in, understanding he is accountable for Product Backlog. However, he is unsure about the purpose of the Product Backlog. He's read that the Product Backlog should be a list of all user features for the product. He goes to the Scrum Master asking where to put the other types of requirements that are going to be taken into account. Are all of the following types of requirements acceptable on a Product Backlog? Stability requirements, Performance requirements, Product Functionality, Documentation, Fixes",
+        "answers": [
+            {"text": "Yes, they all belong on the Product Backlog. Product Backlog is supposed to be the 'single source of truth' for all the work for the product.", "correct": true},
+            {"text": "No. Product Backlog is a tool for the Product Owner. The Product Owner represents the users and stakeholders. Other types of requirements should be managed separately by the Development Team. They are not the Product Owner's concern.", "correct": false}
+        ]
+    },
+    {
+        "question": "Who creates a Product Backlog Item's estimate?",
+        "answers": [
+            {"text": "The Scrum Master.", "correct": false},
+            {"text": "The Development Team after clarifying requirements with the Product Owner.", "correct": true},
+            {"text": "The Development Team, alone.", "correct": false},
+            {"text": "The most senior people in the organization, including architects and subject matter experts.", "correct": false},
+            {"text": "The Product Owner with input from the Development Team.", "correct": false}
+        ]
+    },
+    {
+        "question": "When a Development Team is having trouble delivering a working Increment because they don't understand a functional requirement, what should they do?",
+        "answers": [
+            {"text": "Partially complete the functionality, and discuss the remaining work at the Sprint Review.", "correct": false},
+            {"text": "Add a specialist to the Development Team.", "correct": false},
+            {"text": "Collaborate with the Product Owner to determine what is possible and acceptable.", "correct": true},
+            {"text": "Defer the work to a more appropriate Sprint.", "correct": false}
+        ]
+    },
+    {
+        "question": "In the middle of the Sprint, the customer decides that there are 2 new features she wants. The Product Owner could:",
+        "answers": [
+            {"text": "Add it to the Product Backlog.", "correct": true},
+            {"text": "Have the Scrum Master add these features to the current Sprint.", "correct": false},
+            {"text": "Ask the Development Team to consider whether they can add these features to the current Sprint.", "correct": true},
+            {"text": "Introduce these features at the next Daily Scrum.", "correct": false}
+        ]
+    },
+    {
+        "question": "A product's success is measured by:",
+        "answers": [
+            {"text": "The impact on customer satisfaction.", "correct": true},
+            {"text": "The delivery of upfront defined scope compared to the upfront planned time.", "correct": false},
+            {"text": "The impact on revenue.", "correct": true},
+            {"text": "The impact on my performance rating.", "correct": false},
+            {"text": "The impact on my boss's mood.", "correct": false},
+            {"text": "The impact on cost.", "correct": true}
+        ]
+    },
+    {
+        "question": "What three things might a Scrum Product Owner focus on to ensure the product delivers value?",
+        "answers": [
+            {"text": "Minimizing changes to project scope", "correct": false},
+            {"text": "Velocity is increasing over time.", "correct": false},
+            {"text": "Direct customer feedback.", "correct": true},
+            {"text": "How much of the functionality of the product is being utilized.", "correct": true},
+            {"text": "How readily the product can be absorbed and used by its customers.", "correct": true}
+        ]
+    },
+    {
+        "question": "Which two things should the Development Team do during the first Sprint?",
+        "answers": [
+            {"text": "Create an Increment of potentially releasable software.", "correct": true},
+            {"text": "Develop at least one piece of functionality.", "correct": true},
+            {"text": "Analyze, design, and describe the complete architecture and infrastructure.", "correct": false},
+            {"text": "Make up a plan for the rest of the project.", "correct": false},
+            {"text": "Analyze, describe, and document the requirements for the subsequent Sprints.", "correct": false}
+        ]
+    },
+    {
+        "question": "The Development Team should have all the skills needed to:",
+        "answers": [
+            {"text": "Turn Product Backlog items into an Increment of potentially releasable product functionality.", "correct": true},
+            {"text": "Complete the project within the date and cost as calculated by the Product Owner.", "correct": false},
+            {"text": "Do all of the development work, except for specialized testing that requires additional tools and environments.", "correct": false}
+        ]
+    },
+    {
+        "question": "The Product Owner makes sure the right stakeholders are invited to the Sprint Retrospective. They might have important instructions for team improvements.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the recommended size for a Development Team?",
+        "answers": [
+            {"text": "At least 7.", "correct": false},
+            {"text": "3 to 9.", "correct": true},
+            {"text": "9.", "correct": false},
+            {"text": "7 plus or minus 3.", "correct": false}
+        ]
+    },
+    {
+        "question": "All planned work for the Product done by the Development Team must originate from the Product Backlog.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "A Product Owner can measure success by an increase in the team's velocity.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the role of the Product Owner in crafting the Sprint Goal?",
+        "answers": [
+            {"text": "The Product Owner shouldn't come to the Sprint Planning without a clearly defined Sprint Goal.", "correct": false},
+            {"text": "The Product Owner has no role in it. This is the Development Team's responsibility.", "correct": false},
+            {"text": "The Product Owner defines the scope for a Sprint and therefore also the Sprint Goal.", "correct": false},
+            {"text": "The Product Owner should come to the Sprint Planning with a business objective in mind and work with the Development Team to craft the Sprint Goal based upon the forecast.", "correct": true},
+            {"text": "The Product Owner must work with stakeholders to set each Sprint's Goal.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is the most important stakeholder Product Owners must satisfy?",
+        "answers": [
+            {"text": "The company owner or shareholders.", "correct": false},
+            {"text": "The Product's users.", "correct": true},
+            {"text": "The Chief Product Owner.", "correct": false},
+            {"text": "Executive staff.", "correct": false}
+        ]
+    },
+    {
+        "question": "A Project Manager working with your Scrum Team has raised concerns about progress and money spent. What are the two best responses?",
+        "answers": [
+            {"text": "Have a discussion with the Project Manager; share the current impediments and forecast for the Sprint.", "correct": true},
+            {"text": "Share the last stakeholder briefing document prepared by the Product Owner.", "correct": false},
+            {"text": "Promote transparency by sharing the Product Backlog and ensuring the Project Manager has access.", "correct": true},
+            {"text": "Scrum doesn't have Project Managers so disregard their concerns.", "correct": false},
+            {"text": "Show the Earned Value Analysis (EVA) report.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which of the following might the Scrum Team discuss during a Sprint Retrospective?",
+        "answers": [
+            {"text": "Its definition of 'Done'.", "correct": false},
+            {"text": "Methods of communication.", "correct": false},
+            {"text": "The way the Scrum Team does Sprint Planning.", "correct": false},
+            {"text": "Skills needed to improve the Development Team's ability to deliver.", "correct": false},
+            {"text": "All of the above.", "correct": true}
+        ]
+    },
+    {
+        "question": "How much time must a Product Owner spend with the Development Team?",
+        "answers": [
+            {"text": "100%.", "correct": false},
+            {"text": "However much time the Development Team asks the Product Owner to be present.", "correct": true},
+            {"text": "40%, or more if the stakeholders agree.", "correct": false},
+            {"text": "Enough so that the Product Owner is not surprised by the value delivered by the Increment.", "correct": false}
+        ]
+    },
+    {
+        "question": "During the Sprint Review it is up to the stakeholders to reorder the Product Backlog.",
+        "answers": [
+            {"text": "True", "correct": false},
+            {"text": "False", "correct": true}
+        ]
+    },
+    {
+        "question": "Which metrics will help a Product Owner establish that value is being delivered?",
+        "answers": [
+            {"text": "Time to market.", "correct": true},
+            {"text": "Velocity.", "correct": false},
+            {"text": "Customer satisfaction.", "correct": true},
+            {"text": "Productivity.", "correct": false},
+            {"text": "Scope implemented.", "correct": false}
+        ]
+    },
+    {
+        "question": "When do Development Team members take ownership of a Sprint Backlog item?",
+        "answers": [
+            {"text": "During the Daily Scrum.", "correct": false},
+            {"text": "Whenever a team member can accommodate more work.", "correct": false},
+            {"text": "Never. All Sprint Backlog Items are 'owned' by the entire Development Team, even though each one may be done by an individual Development Team member.", "correct": true},
+            {"text": "At the Sprint planning meeting.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which is NOT a valid consideration when ordering a Product Backlog?",
+        "answers": [
+            {"text": "Alignment with business strategy and goals.", "correct": false},
+            {"text": "Importance to customers.", "correct": false},
+            {"text": "Risk.", "correct": false},
+            {"text": "Dependencies on other Product Backlog Items.", "correct": false},
+            {"text": "Development Team tools and techniques.", "correct": true}
+        ]
+    },
+    {
+        "question": "What is the purpose of a Sprint Review?",
+        "answers": [
+            {"text": "To take time to judge the validity of the project.", "correct": false},
+            {"text": "To review the Scrum Team's activities and processes during the Sprint.", "correct": false},
+            {"text": "To inspect the product Increment with the stakeholders and collect feedback on next steps.", "correct": true},
+            {"text": "To build team spirit.", "correct": false}
+        ]
+    },
+    {
+        "question": "How small should a 'ready' Product Backlog item be?",
+        "answers": [
+            {"text": "Small enough to build in 1 Sprint.", "correct": true},
+            {"text": "Small enough for a single team member to complete in a Sprint.", "correct": false},
+            {"text": "It should fit on a small index card.", "correct": false},
+            {"text": "No longer than one day.", "correct": false},
+            {"text": "No bigger than 8 story points.", "correct": false}
+        ]
+    },
+    {
+        "question": "Sprint Reviews are an opportune time to collect customer feedback.",
+        "answers": [
+            {"text": "True", "correct": true},
+            {"text": "False", "correct": false}
+        ]
+    },
+    {
+        "question": "In accordance with Scrum theory, how should a group of 100 people be divided into multiple Development Teams?",
+        "answers": [
+            {"text": "Understanding the product, the product vision and the rules of the Scrum framework, the group divides itself into teams.", "correct": true},
+            {"text": "Check with the allocation department to see who has worked together before and make these the first teams.", "correct": false},
+            {"text": "It doesn't really matter because you can rotate the teams every Sprint to spread knowledge.", "correct": false},
+            {"text": "Create a matrix of skills, seniority, and level of experience to assign people to teams.", "correct": false}
+        ]
+    },
+    {
+        "question": "When should the Product Owner update the project plan?",
+        "answers": [
+            {"text": "The Product Backlog is the plan in Scrum. It is updated as new information and insights emerge.", "correct": true},
+            {"text": "Before the Sprint Planning to know how much work will have to be done in the Sprint.", "correct": false},
+            {"text": "Scrum forbids having a project plan.", "correct": false},
+            {"text": "The Product Owner shouldn't be occupied by that. It is work for the Project Manager. ", "correct": false},
+            {"text": "After the Daily Scrum to ensure an accurate daily overview of project progress.", "correct": false}
+        ]
+    },
+    {
+        "question": "User documentation is part of your definition of 'Done'. However, there aren't enough technical writers for all teams. Your Development Team doesn't have a technical writer. What should you do?",
+        "answers": [
+            {"text": "Let the user documentation remain undone and accumulate until after the last development Sprint. It will then be done by any available technical writers.", "correct": false},
+            {"text": "Wait until you have a technical writer on your Development Team to take care of this.", "correct": false},
+            {"text": "Your Development Team is still responsible for creating user documentation. In this case, the Development Team members will write it.", "correct": true},
+            {"text": "Form a separate team of technical writers that will work on an on-demand basis for the various Product Owners. Work order will be first in, first out.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which three of the following are feedback loops in Scrum?",
+        "answers": [
+            {"text": "Release Planning.", "correct": false},
+            {"text": "Refinement Meeting.", "correct": false},
+            {"text": "Sprint Review.", "correct": true},
+            {"text": "Sprint Retrospective.", "correct": true},
+            {"text": "Daily Scrum.", "correct": true}
+        ]
+    },
+    {
+        "question": "How much time is required after a Sprint to prepare for the next Sprint?",
+        "answers": [
+            {"text": "All of the above are allowed depending on the situation.", "correct": false},
+            {"text": "The break between Sprints is time-boxed to 1 week for 30 day Sprints, and usually less for shorter sprints.", "correct": false},
+            {"text": "Enough time for the Development team to finish the testing from the last Sprint.", "correct": false},
+            {"text": "Enough time for the requirements for the next Sprint to be determined and documented.", "correct": false},
+            {"text": "None. A new Sprint starts immediately following the end of the previous Sprint.", "correct": true}
+        ]
+    },
+    {
+        "question": "It is mandatory for the Product Owner to monitor and share progress of the Product Backlog by using which method?",
+        "answers": [
+            {"text": "A Gantt chart.", "correct": false},
+            {"text": "A Sprint Review acceptance report.", "correct": false},
+            {"text": "A Value burn-up chart.", "correct": false},
+            {"text": "A Product or Release burn-down chart.", "correct": false},
+            {"text": "Any practice based on trends of work completed and upcoming work.", "correct": true}
+        ]
+    },
+    {
+        "question": "How can a Product Owner use time-boxed Sprints to obtain feedback from users and the market?",
+        "answers": [
+            {"text": "A business analyst represents the Product Owner to make decisions on his behalf during the Sprint. This way the Product Owner can accept the work at the Sprint Review without further involvement.", "correct": false},
+            {"text": "By making sure a Sprint does not stop until all testing is done, and the work is verified by the Product Owner.", "correct": false},
+            {"text": "At the end of each Sprint, a detailed report with all test cases and test results is available.", "correct": false},
+            {"text": "Through frequent delivery of Increments of the product into the market.", "correct": true},
+            {"text": "Through the assurance that a Development Team finishes all work on the Sprint Backlog.", "correct": false}
+        ]
+    },
+    {
+        "question": "Which two ways of creating Development Teams are consistent with Scrum's values?",
+        "answers": [
+            {"text": "The Chief Product Owner determines the new team structures and assignments.", "correct": false},
+            {"text": "Managers personally re-assign current subordinates to new teams.", "correct": false},
+            {"text": "Managers collaborate to assign individuals to specific teams.", "correct": false},
+            {"text": "Existing teams propose how they would like to go about organizing into the new structure.", "correct": true},
+            {"text": "Bring all the developers together and let them self-organize into Development Teams.", "correct": true}
         ]
     }
 ]

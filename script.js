@@ -9,13 +9,13 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(resultContainer);
 
     const restartButton = document.createElement('button');
-    restartButton.innerText = 'Neu Starten';
+    restartButton.innerText = 'Restart Quiz';
     restartButton.classList.add('hide', 'btn');
     document.body.appendChild(restartButton);
 
     let shuffledQuestions, currentQuestionIndex;
     let correctAnswersCount = 0;
-    const totalQuestions = 15;
+    const totalQuestions = 30;
     let correctAnswersNeeded = 0;
 
     nextButton.addEventListener('click', () => {
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         correctAnswersNeeded = question.answers.filter(answer => answer.correct).length;
 
         if (correctAnswersNeeded > 1) {
-            questionElement.innerText += ` (Mehrfachauswahl - Wähle ${correctAnswersNeeded} Antworten)`;
+            questionElement.innerText += ` (Multiple Choice - Choose ${correctAnswersNeeded} Answers)`;
         }
 
         question.answers.forEach(answer => {
@@ -125,10 +125,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function showResult() {
         questionContainerElement.classList.add('hide');
-        resultContainer.innerText = `Du hast ${correctAnswersCount} von ${totalQuestions} Fragen richtig beantwortet!`;
+        resultContainer.innerText = `You have answered ${correctAnswersCount} out of ${totalQuestions} questions correctly! `;
         resultContainer.classList.remove('hide');
-        nextButton.classList.add('hide'); // Verstecke den Weiter-Button, wenn das Ergebnis angezeigt wird
-        restartButton.classList.remove('hide'); // Zeige den Neu Starten-Button an
+        nextButton.classList.add('hide'); // Verstecke den Next-Button, wenn das Ergebnis angezeigt wird
+        restartButton.classList.remove('hide'); // Zeige den Restart-Button an
     }
 
     function restartQuiz() {
