@@ -1,4 +1,31 @@
 document.addEventListener('DOMContentLoaded', () => {
+    const timerElement = document.getElementById('timer');
+    let timeElapsed = 0;
+    let timerInterval;
+
+    // Timer startet bei 00:00
+    function startTimer() {
+        timerInterval = setInterval(() => {
+            timeElapsed++;
+            const minutes = Math.floor(timeElapsed / 60);
+            const seconds = timeElapsed % 60;
+            timerElement.innerText = `${formatTime(minutes)}:${formatTime(seconds)}`;
+        }, 1000);
+    }
+
+    // Timer stoppen
+    function stopTimer() {
+        clearInterval(timerInterval);
+    }
+
+    // Formatierung der Zeit (immer zweistellig)
+    function formatTime(time) {
+        return time < 10 ? `0${time}` : time;
+    }
+
+    // Timer beim Start des Quiz aufrufen
+    startTimer();
+
     const questionContainerElement = document.getElementById('question-container');
     const questionElement = document.getElementById('question');
     const answerButtonsElement = document.getElementById('answer-buttons');
@@ -42,6 +69,8 @@ document.addEventListener('DOMContentLoaded', () => {
     function setNextQuestion() {
         resetState();
         showQuestion(shuffledQuestions[currentQuestionIndex]);
+        const progressElement = document.getElementById('progress');
+        progressElement.innerText = `Question ${currentQuestionIndex + 1} of ${totalQuestions}`;
     }
 
     function showQuestion(question) {
@@ -129,6 +158,8 @@ document.addEventListener('DOMContentLoaded', () => {
         resultContainer.classList.remove('hide');
         nextButton.classList.add('hide'); // Verstecke den Next-Button, wenn das Ergebnis angezeigt wird
         restartButton.classList.remove('hide'); // Zeige den Restart-Button an
+
+        //stopTimer(); // Timer stoppen, wenn das Quiz beendet ist, aber sichtbar lassen
     }
 
     function restartQuiz() {
@@ -139,5 +170,8 @@ document.addEventListener('DOMContentLoaded', () => {
         restartButton.classList.add('hide');
         questionContainerElement.classList.remove('hide');
         setNextQuestion();
+
+        timeElapsed = 0; // Timer zurücksetzen
+        startTimer(); // Timer neu starten
     }
 });

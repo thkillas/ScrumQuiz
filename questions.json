@@ -581,8 +581,8 @@
         "question": "The Product Owner manages the Product Backlog. Who is accountable for estimating the effort to complete the Product Backlog items?",
         "answers": [
             {"text": "The Product Owner.", "correct": false},
-            {"text": "The Developers.", "correct": false},
-            {"text": "The PMO.", "correct": true}
+            {"text": "The Developers.", "correct": true},
+            {"text": "The PMO.", "correct": false}
         ]
     },
     {
@@ -721,7 +721,7 @@
         "answers": [
             {"text": "Who are going to be the team leads?", "correct": false},
             {"text": "What is the right mixture of senior and junior people on each team?", "correct": false},
-            {"text": "PHow will we make sure all teams have the right amount of expertise?aris", "correct": true},
+            {"text": "How will we make sure all teams have the right amount of expertise?", "correct": true},
             {"text": "Who are the subject matter experts on each team?", "correct": false}
         ]
     },

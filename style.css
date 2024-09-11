@@ -3,10 +3,27 @@ body {
     background-color: #d3d3d3; /* LysHellgrau als Hintergrund für die gesamte Seite */
 }
 
+#timer {
+    /*font-size: 18px;
+    font-weight: bold;*/
+    margin-bottom: 10px;
+}
+
 #quiz-container {
     width: 300px;
     margin: 50px auto;
     text-align: center;
+    display: flex; /* Fragen und Antworten werden mittig auf der Seite angezeigt */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*height: 100vh;*/
+}
+
+#progress {
+    /*font-size: 16px;*/
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .btn-container {
