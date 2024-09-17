@@ -35,10 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
     resultContainer.classList.add('hide'); // Verstecke das Ergebnis am Anfang
     document.body.appendChild(resultContainer);
 
-    const restartButton = document.createElement('button');
-    restartButton.innerText = 'Restart Quiz';
-    restartButton.classList.add('hide', 'btn');
-    document.body.appendChild(restartButton);
+    const restartButton = document.getElementById('restart-button');
 
     let shuffledQuestions, currentQuestionIndex;
     let correctAnswersCount = 0;
@@ -153,24 +150,23 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showResult() {
-        questionContainerElement.classList.add('hide');
+        questionContainerElement.classList.add('hide'); // Fragen-Container ausblenden
         resultContainer.innerText = `You have answered ${correctAnswersCount} out of ${totalQuestions} questions correctly! `;
-        resultContainer.classList.remove('hide');
-        nextButton.classList.add('hide'); // Verstecke den Next-Button, wenn das Ergebnis angezeigt wird
-        restartButton.classList.remove('hide'); // Zeige den Restart-Button an
-
-        //stopTimer(); // Timer stoppen, wenn das Quiz beendet ist, aber sichtbar lassen
+        resultContainer.classList.remove('hide'); // Ergebnis anzeigen
+        restartButton.classList.remove('hide'); // Restart-Button sichtbar machen
+        nextButton.classList.add('hide'); // "Next"-Button ausblenden
     }
 
     function restartQuiz() {
         correctAnswersCount = 0;
-        shuffledQuestions = shuffle(shuffledQuestions);
+        shuffledQuestions = shuffle(shuffledQuestions); // Fragen neu mischen
         currentQuestionIndex = 0;
-        resultContainer.classList.add('hide');
-        restartButton.classList.add('hide');
-        questionContainerElement.classList.remove('hide');
+        resultContainer.classList.add('hide'); // Ergebnis verstecken
+        restartButton.classList.add('hide'); // Restart-Button verstecken
+        questionContainerElement.classList.remove('hide'); // Fragen-Container wieder anzeigen
         setNextQuestion();
-
+    
+        stopTimer(); // Timer stoppen
         timeElapsed = 0; // Timer zurücksetzen
         startTimer(); // Timer neu starten
     }
