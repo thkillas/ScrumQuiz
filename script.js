@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let shuffledQuestions, currentQuestionIndex;
     let correctAnswersCount = 0;
-    const totalQuestions = 30;
+    const totalQuestions = 20;
     let correctAnswersNeeded = 0;
 
     nextButton.addEventListener('click', () => {
@@ -100,7 +100,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function selectAnswer(e) {
         const selectedButton = e.target;
-        selectedButton.classList.add('selected');
+        selectedButton.classList.add('selected-highlight'); // Füge die Hervorhebung hinzu
+        selectedButton.classList.add('selected'); // Markiere die Antwort als ausgewählt
+
+        // Entferne die Hervorhebung nach kurzer Zeit (z.B. nach 500ms)
+        setTimeout(() => {
+        selectedButton.classList.remove('selected-highlight');
+        }, 10000);
 
         const selectedButtons = Array.from(answerButtonsElement.children).filter(button => button.classList.contains('selected'));
 
