@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Entferne die Hervorhebung nach kurzer Zeit (z.B. nach 500ms)
         setTimeout(() => {
         selectedButton.classList.remove('selected-highlight');
-        }, 10000);
+        }, 60000);
 
         const selectedButtons = Array.from(answerButtonsElement.children).filter(button => button.classList.contains('selected'));
 

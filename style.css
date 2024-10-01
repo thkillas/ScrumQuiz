@@ -4,8 +4,6 @@ body {
 }
 
 #timer {
-    /*font-size: 18px;
-    font-weight: bold;*/
     margin-bottom: 10px;
 }
 
@@ -17,7 +15,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /*height: 100vh;*/
 }
 
 .selected-highlight {
@@ -30,7 +27,6 @@ body {
 }
 
 #progress {
-    /*font-size: 16px;*/
     font-weight: bold;
     margin-bottom: 10px;
 }
